@@ -1,1 +1,4 @@
 # Using-Machine-Learning-to-Predict-Air-Pollution
+In the course of this project, I commenced with a comprehensive exploratory analysis to gain an initial understanding of the data. Subsequent to this, I embarked on an ETL process to refine and cleanse the dataset. This entailed addressing several concerns, including missing values, outliers, negative values, and the challenge posed by a right-skewed distribution. With a primed dataset, I constructed models using both linear regression and random forest methodologies to forecast air pollution levels.
+
+Intriguingly, the pivotal feature influencing PM2.5 predictions was the Dew Point, overshadowing factors like rainfall. Between the two modeling approaches, the random forest method exhibited superior performance compared to linear regression. Consequently, I have chosen the random forest model as our optimal tool for air pollution predictions.
